@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #ffc451;
+  color: #0b89ff;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: #0b89ff;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -61,7 +61,7 @@ h6 {
 }
 
 .back-to-top:hover i {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 .back-to-top.active {
@@ -75,7 +75,6 @@ h6 {
   opacity: 1;
   background: #151515;
   width: 50px;
-  
 }
 
 .action-left {
@@ -89,11 +88,11 @@ h6 {
 }
 
 .action-left:hover {
-  background: #ffc451;
+  background: #0b89ff;
 }
 
 .action-right:hover {
-  background: #ffc451;
+  background: #0b89ff;
 }
 
 .viet-name {
@@ -136,7 +135,7 @@ h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #ffc451;
+  border: 6px solid #0b89ff;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -193,7 +192,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 #header .logo img {
@@ -211,7 +210,7 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid #0b89ff;
 }
 
 .get-started-btn:hover {
@@ -272,7 +271,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 .navbar .dropdown ul {
@@ -308,7 +307,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  background-color: #ffc451;
+  background-color: #0b89ff;
 }
 
 .navbar .dropdown:hover > ul {
@@ -403,7 +402,7 @@ h6 {
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
   color: #151515;
-  background-color: #ffc451;
+  background-color: #0b89ff;
 }
 
 .navbar-mobile .getstarted,
@@ -439,7 +438,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  background-color: #ffc451;
+  background-color: #0b89ff;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -452,7 +451,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/1.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -478,12 +477,12 @@ h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: #0b89ff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h1 span {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 #hero h2 {
@@ -503,7 +502,7 @@ h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 #hero .icon-box h3 {
@@ -521,11 +520,11 @@ h6 {
 }
 
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: #0b89ff;
 }
 
 @media (min-width: 1024px) {
@@ -617,11 +616,16 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.service {
+  background: url("../img/1.jpg") top center;
+  background-size: cover;
 }
 
 /*--------------------------------------------------------------
@@ -656,7 +660,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #0b89ff;
 }
 
 /*--------------------------------------------------------------
@@ -679,7 +683,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 .features .icon-box p {
@@ -699,18 +703,29 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  position: relative;
   text-align: center;
   border: 1px solid #ebebeb;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  /* background: url("../img/1.jpg") top center; */
+}
+
+.services .icon-box:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  background: #0b89ff;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -732,18 +747,21 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
+  color: #0b89ff;
   transition: ease-in-out 0.3s;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: white;
 }
 
 .services .icon-box:hover {
@@ -787,8 +805,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
+  background: #0b89ff;
+  border-color: #0b89ff;
   color: #151515;
 }
 
@@ -823,7 +841,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #151515;
-  background: #ffc451;
+  background: #0b89ff;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -900,7 +918,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -939,14 +957,14 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffc451;
+  border: 1px solid #0b89ff;
 }
 
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #0b89ff;
 }
 
 .portfolio-details .portfolio-info {
@@ -1011,7 +1029,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #ffc451;
+  color: #0b89ff;
   float: left;
 }
 
@@ -1161,7 +1179,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: #0b89ff;
   opacity: 1;
 }
 
@@ -1225,7 +1243,7 @@ section {
 
 .team .member .social a:hover {
   color: #151515;
-  background: #ffc451;
+  background: #0b89ff;
 }
 
 .team .member .social i {
@@ -1273,7 +1291,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #ffc451;
+  background: #0b89ff;
   color: #151515;
   float: left;
   width: 44px;
@@ -1365,7 +1383,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ffc451;
+  border-color: #0b89ff;
 }
 
 .contact .php-email-form input {
@@ -1377,7 +1395,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ffc451;
+  background: #0b89ff;
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -1481,7 +1499,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 #footer .footer-top .footer-info p {
@@ -1508,7 +1526,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc451;
+  background: #0b89ff;
   color: #151515;
   text-decoration: none;
 }
@@ -1533,7 +1551,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: #0b89ff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1556,7 +1574,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: #0b89ff;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1582,7 +1600,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffc451;
+  background: #0b89ff;
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
