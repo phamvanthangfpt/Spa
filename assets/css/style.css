@@ -95,23 +95,111 @@ h6 {
   background: #0b89ff;
 }
 
+.call,
 .viet-name {
-  top: 150px;
-}
-
-.japan,
-.call {
   top: 200px;
 }
 
-.korea,
+.japan,
 .messenger {
   top: 250px;
 }
 
-.englist,
+.korea,
 .zalo {
   top: 300px;
+}
+
+.kakao,
+.englist {
+  top: 350px;
+}
+@media only screen and (max-width: 380px) {
+  .call,
+  .viet-name {
+    top: 400px !important;
+  }
+
+  .japan,
+  .messenger {
+    top: 450px !important;
+  }
+
+  .korea,
+  .zalo {
+    top: 500px !important;
+  }
+
+  .kakao,
+  .englist {
+    top: 550px !important;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .call,
+  .viet-name {
+    top: 550px !important;
+  }
+
+  .japan,
+  .messenger {
+    top: 600px !important;
+  }
+
+  .korea,
+  .zalo {
+    top: 650px !important;
+  }
+
+  .kakao,
+  .englist {
+    top: 700px !important;
+  }
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px 20px 20px 20px;
+  border: 1px solid #888;
+  width: 80%;
+  position: relative;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  position: absolute;
+  right: 0;
+  top: 0;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  width: 40px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*  */
@@ -196,7 +284,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
